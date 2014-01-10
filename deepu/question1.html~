@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+var text=prompt("enter a sting with separated by whitespaces","");
+
+var word=text.split(" ");
+
+var longestWord="";
+for(var i=0;i<word.length;i++)
+{
+ if(longestWord.length<word[i].length)
+{
+  
+   longestWord=word[i];
+}
+}
+ document.write(longestWord);
+</script>
+</body>
+</html>
